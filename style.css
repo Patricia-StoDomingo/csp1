@@ -1,0 +1,79 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.home-intro {
+	display: flex;
+}
+
+.jumbotron {
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	background-image: url("./img/cover.jpg");
+	background-size: cover;
+	height: 75vh;
+	width: 100%;
+	align-items: flex-end;
+	justify-content: flex-end;
+	font-family: "Montserrat", sans-serif;
+}
+
+.navbar-nav li {
+	padding: .5rem;
+	align-items: center;
+	font-size: 1.2rem;
+}
+
+a.nav-link {
+	font-family: "Roboto Slab", serif;
+	color: white;
+}
+
+.nav-scrolled {
+	background-color: white;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.site-footer {
+  	background-color:#26272b;
+  	padding:45px 0 20px;
+  	font-size:15px;
+  	line-height:24px;
+  	color:#737373;
+}
+
+.site-footer hr {
+  	border-top-color:#bbb;
+  	opacity:0.5
+}
+
+.site-footer hr.small {
+  	margin:20px 0
+}
+.site-footer h6 {
+  	color:#fff;
+  	font-size:16px;
+  	text-transform:uppercase;
+  	margin-top:5px;
+  	letter-spacing:2px
+}
+
