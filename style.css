@@ -21,7 +21,7 @@ body {
 	flex-direction: column;
 	background-image: url("./img/cover.jpg");
 	background-size: cover;
-	height: 75vh;
+	height: 90vh;
 	width: 100%;
 	align-items: flex-end;
 	justify-content: flex-end;
