@@ -25,8 +25,17 @@ body {
 	width: 100%;
 	align-items: flex-end;
 	justify-content: flex-end;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto Slab", sans-serif;
+	color: white;
 }
+
+#hello {
+	font-family: "Montserrat" sans-serif;
+	font-weight: 800;
+	font-size: 5rem;
+	color: white;
+}
+
 
 .navbar-nav li {
 	padding: .5rem;
@@ -43,6 +52,22 @@ a.nav-link {
 	background-color: white;
 	color: black;
 }
+
+.map-outer {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.map-outer iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
 
 
 
