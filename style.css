@@ -21,7 +21,7 @@ body {
 	flex-direction: column;
 	background-image: url("./img/cover.jpg");
 	background-size: cover;
-	height: 90vh;
+	height: 93vh;
 	width: 100%;
 	align-items: flex-end;
 	justify-content: flex-end;
@@ -53,14 +53,14 @@ a.nav-link {
 	color: black;
 }
 
-.map-outer {
+#map-outer {
 	overflow: hidden;
-	padding-bottom: 56.25%;
+	padding-bottom: 40%;
 	position: relative;
 	height: 0;
 }
 
-.map-outer iframe {
+#map-outer iframe {
 	left: 0;
 	top: 0;
 	height: 100%;
