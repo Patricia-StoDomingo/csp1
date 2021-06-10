@@ -9,7 +9,6 @@
     <title>Patricia Sto. Domingo | Web Developer Portfolio</title>
 
 
-    <link rel="stylesheet" type="text/css" href="style.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
@@ -19,10 +18,13 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -62,131 +64,148 @@
         </div>
     </section>
 
-    <section id="about" class="container-fluid text-center pl-5 pr-5 pt-5 pb-5">
+    <section class="pad">
+      <section id="about" class="container-fluid text-center pl-5 pr-5 pt-5 pb-5">
+          <div class="row no-gutter">
+              <div class="col-lg-3">
+                  <img src="./img/top.png" width="200" class="img-fluid rounded-circle">
+              </div>
+              <div class=" col-lg-9">
+                <h3>About Me...</h3>
+                  <p class="text-justify d-flex justify-content-end">I love designing simple and efficient websites that are functional but doesn't sacrifice the aesthetics. I am new to web development and there are still a lot of things that I am learning but I am very passionate in what I do. I used to work as an architect and I love translating my architectural design knowledge of form, utility, and beauty into code and into something that people can see and interact with. I love growth and learning and I believe that every project is an opportunity to know myelf more and define the way I design.</p>
+              </div>
+          </div>
+      </section>
+
+      <hr>
+
+      <section id="projects" class="container-fluid pl-5 pr-5 pt-5 pb-5">
+          <h2 class="text-center pb-5">Here are some of my works!</h2>
+          <div>
+              <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <img src="./img/burg-rev.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Food Business Website | Burger Revolution</h5>
+                      <p class="card-text text-justify">This is a practice website I made using my knowledge on CSS styling and flexbox. This project was meant to provide a website that features a menu for the buyers to choose from and know more about Burger Revolution, its creator and its mission in providing good quality and out of the box burger ideas.</p>
+                      <button class="btn btn-warning"><a class="text-decoration-none text-reset" href="https://patricia-stodomingo.github.io/p1/" target="_blank">Take a peek</a></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <img src="./img/web-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Capstone Project 1</h5>
+                      <p class="card-text text-justify">For our first capstone project we were tasked to create our web developer portfolio. This project is my first take on Bootstrap and how to use it along with an external CSS styling. The design was primarily aiming to be minimalist, as I go along the process of getting to know how to use the framework to make a responsive website.</p>
+                      <button class="btn btn-warning"><a class="text-decoration-none text-reset" href="https://patricia-stodomingo.github.io/csp1/#projects" target="_blank">Take a peek</a></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <img src="./img/under-construction.jpg" class="card-img-top" alt="Under Construction Vectors by Vecteezy">
+                    <div class="card-body">
+                      <h5 class="card-title">Capstone Project 2</h5>
+                      <p class="card-text text-justify">Thank you for your interest but unfortunately this website is still not yet deployed. It will be in the future, so do come back!</p>
+                      <button type="button" class="btn btn-warning disabled">Not Available</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="./img/under-construction.jpg" class="card-img-top" alt="Under Construction Vectors by Vecteezy">
+                    <div class="card-body">
+                      <h5 class="card-title">Capstone Project 3</h5>
+                      <p class="card-text text-justify">Thank you for your interest but unfortunately this website is still not yet deployed. It will be in the future, so do come back!</p>
+                      <button type="button" class="btn btn-warning disabled">Not Available</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div> 
+      </section>
+
+      <section id="work-together" class="container-fluid d-flex text-center flex-column align-items-center pt-5 pb-5 pl-5 pr-5">
+          <h2 class="pb-2">Let's work together!</h2>
+          <p class="pb-2">Let me know how I can help! Whether it's a business site or a personal project, or even if you just enjoy supporting people and investing on their capabilities, I would love to talk to you.</p>
+          <div class="row d-flex container-fluid justify-content-center">
+              <div class="col-lg-4 col-sm-12 border-0 d-flex flex-column align-items-center pt-2 pb-2" style="width: 18rem;">
+                <img src="./img/hire.png" class="rounded-circle text-center" alt="..." width="150">
+                <div class="card-body">
+                  <p class="card-text text-justify">Are you planning to take your busines to another level? Is creating a website for your business what you have in mind? Then you are in the right place. Just click on the link and we can get started in boosting your business!</p>
+                  <a href="#contact" class="btn btn-warning container-fluid align-self-end">Hire Me!</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 border-0 d-flex flex-column align-items-center pt-2 pb-2" style="width: 18rem;">
+                <img src="./img/collaborate.png" class="rounded-circle text-center" alt="..." width="150">
+                <div class="card-body">
+                  <p class="card-text text-justify">Do you have a personal project you have been wanting to start for so long? Either you don't have time or need more brains then i'm all in! Click on the link and let's talk! I'm excited to hear about your project!</p>
+                  <a href="#contact" class="btn btn-warning container-fluid align-self-end">Let's Collaborate!</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 border-0 d-flex flex-column align-items-center pt-2 pb-2" style="width: 18rem;">
+                <img src="./img/support.png" class="rounded-circle text-center" alt="..." width="150">
+                <div class="card-body">
+                  <p class="card-text text-justify">Knowing people are viewing my portfolio means a lot to me. It means my design get to be seen by many others! Even if you don't need any websites to be done but you admire my work, then any kind of support would mean a lot to me.</p>
+                  <a href="#contact" class="btn btn-warning container-fluid align-self-end">Buy me a Coffee!</a>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <hr>
+
+      <section class="container-fluid pt-5 pb-5 pl-5 pr-5" id="contact">
+        <h2 class="text-center pb-5">Contact</h2>
         <div class="row no-gutter">
-            <div class="col-lg-3">
-                <img src="./img/top.png" width="200" class="img-fluid rounded-circle">
-            </div>
-            <div class=" col-lg-9">
-                <p class="text-justify">I love designing simple and efficient websites that are functional but doesn't sacrifice the aesthetics. I am new to web development and there are still a lot of things that I am learning but I am very passionate in what I do. I used to work as an architect and I love translating my architectural design knowledge of form, utility, and beauty into code and into something that people can see and interact with. I love growth and learning and I believe that every project is an opportunity to know myelf more and define the way I design.</p>
-            </div>
+          <div class="col-lg-6">
+            <h3 class="pb-5">Leave me a message!</h3>
+            <form>
+              <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="email" class="form-control" id="fullname" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="email-ad">Email address</label>
+                <input type="email" class="form-control" id="email-ad" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-warning container-fluid">Submit</button>
+            </form>
+          </div>
+          <div id="map-outer" class="col-lg-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.9298863168488!2d120.96379641420867!3d14.772979276791004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b20cea59f503%3A0x3ab45869871ebbb!2sM.%20Villarica%20Rd%2C%20Marilao%2C%20Bulacan%2C%20Philippines!5e0!3m2!1sen!2shk!4v1623322442725!5m2!1sen!2shk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
         </div>
+      </section>
     </section>
 
-    <section id="projects" class="container-fluid pl-5 pr-5 pt-5 pb-5">
-        <h2 class="text-center pb-5">Here are some of my works!</h2>
-        <div>
-            <div class="row row-cols-1 row-cols-md-2">
-              <div class="col mb-4">
-                <div class="card">
-                  <img src="./img/burg-rev.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Food Business Website | Burger Revolution</h5>
-                    <p class="card-text text-justify">This is a practice website I made using my knowledge on CSS styling and flexbox. This project was meant to provide a website that features a menu for the buyers to choose from and know more about Burger Revolution, its creator and its mission in providing good quality and out of the box burger ideas.</p>
-                    <a href="https://patricia-stodomingo.github.io/p1/">Take a peek</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col mb-4">
-                <div class="card">
-                  <img src="./img/web-1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Capstone Project 1</h5>
-                    <p class="card-text text-justify">For our first capstone project we were tasked to create our web developer portfolio. This project is my first take on Bootstrap and how to use it along with an external CSS styling. The design was primarily aiming to be minimalist, as I go along the process of getting to know how to use the framework to make a responsive website.</p>
-                    <a href="https://patricia-stodomingo.github.io/csp1/#projects">Take a peek</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col mb-4">
-                <div class="card">
-                  <img src="./img/under-construction.jpg" class="card-img-top" alt="Under Construction Vectors by Vecteezy">
-                  <div class="card-body">
-                    <h5 class="card-title">Capstone Project 2</h5>
-                    <p class="card-text text-justify">Thank you for your interest but unfortunately this website is still not yet deployed. It will be in the future, so do come back!</p>
-                    <button type="button" class="btn btn-warning">Not Available</button>
-                  </div>
-                </div>
-              </div>
-              <div class="col mb-4">
-                <div class="card">
-                  <img src="./img/under-construction.jpg" class="card-img-top" alt="Under Construction Vectors by Vecteezy">
-                  <div class="card-body">
-                    <h5 class="card-title">Capstone Project 3</h5>
-                    <p class="card-text text-justify">Thank you for your interest but unfortunately this website is still not yet deployed. It will be in the future, so do come back!</p>
-                    <button type="button" class="btn btn-warning">Not Available</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div> 
-    </section>
-
-    <section id="work-together" class="container-fluid d-flex text-center flex-column align-items-center pt-5 pb-5 pl-5 pr-5">
-        <h2>Let's work together!</h2>
-        <p>Let me know how I can help! Whether it's a business site or a personal project, or even if you just enjoy supporting people and investing on their capabilities, I would love to talk to you.</p>
-        <div class="row d-flex container-fluid justify-content-center">
-            <div class="col-lg-4 col-sm-12 border-0 d-flex flex-column align-items-center" style="width: 18rem;">
-              <img src="./img/hire.png" class="rounded-circle text-center" alt="..." width="150">
-              <div class="card-body">
-                <p class="card-text text-justify">Are you planning to take your busines to another level? Is creating a website for your business what you have in mind? Then you are in the right place. Just click on the link and we can get started in boosting your business!</p>
-                <a href="#" class="btn btn-warning container-fluid align-self-end">Hire Me!</a>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 border-0 d-flex flex-column align-items-center" style="width: 18rem;">
-              <img src="./img/collaborate.png" class="rounded-circle text-center" alt="..." width="150">
-              <div class="card-body">
-                <p class="card-text text-justify">Do you have a personal project you have been wanting to start for so long? Either you don't have time or need more brains then i'm all in! Click on the link and let's talk! I'm excited to hear about your project!</p>
-                <a href="#" class="btn btn-warning container-fluid align-self-end">Let's Collaborate!</a>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 border-0 d-flex flex-column align-items-center" style="width: 18rem;">
-              <img src="./img/support.png" class="rounded-circle text-center" alt="..." width="150">
-              <div class="card-body">
-                <p class="card-text text-justify">Knowing people are viewing my portfolio means a lot to me. It means my design get to be seen by many others! Even if you don't need any websites to be done but you admire my work, then any kind of support would mean a lot to me.</p>
-                <a href="#" class="btn btn-warning container-fluid align-self-end">Buy me a Coffee!</a>
-              </div>
-            </div>
+    <footer class="site-footer">
+      <div class="row container-fluid footer-details">
+        <div class="col-lg-6 col-sm-12 col-md-6 copyright">
+          <p>Made with Bootstrap and plenty of patience</p>
+          <p>All rights reserved 2021 &copy;</p>
         </div>
-    </section>
-
-    <section class="container-fluid pt-5 pb-5 pl-5 pr-5" id="contact">
-      <h2 class="text-center pb-5">Contact</h2>
-      <div class="row no-gutter">
-        <div class="col-lg-6">
-          <h3 class="pb-5">Leave me a message!</h3>
-          <form>
-            <div class="form-group">
-              <label for="fullname">Full Name</label>
-              <input type="email" class="form-control" id="fullname" placeholder="">
+        <div class="col-lg-6 col-sm-12 col-md-6 icons">
+          <h5 class="d-flex justify-content-end">Connect with me on Social Media!</h5>
+          <div class="d-flex justify-content-end container-fluid flex-wrap">
+              <a href="https://www.facebook.com/patty.domingo.1/" class="fa fa-facebook" target="_blank"></a>
+              <a href="https://twitter.com/AsparagusInator" class="fa fa-twitter" target="_blank"></a> 
+              <a href="https://www.linkedin.com/in/patricia-sto-domingo-93b905186/" class="fa fa-linkedin" target="_blank"></a>
+              <a href="https://www.instagram.com/architrix.na/" class="fa fa-instagram" target="_blank"></a>
             </div>
-            <div class="form-group">
-              <label for="email-ad">Email address</label>
-              <input type="email" class="form-control" id="email-ad" placeholder="">
-            </div>
-            <div class="form-group">
-              <label for="message">Your message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <button type="button" class="btn btn-warning container-fluid">Submit</button>
-          </form>
-        </div>
-        <div id="map-outer" class="col-lg-6">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.9298863168488!2d120.96379641420867!3d14.772979276791004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b20cea59f503%3A0x3ab45869871ebbb!2sM.%20Villarica%20Rd%2C%20Marilao%2C%20Bulacan%2C%20Philippines!5e0!3m2!1sen!2shk!4v1623322442725!5m2!1sen!2shk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-      </div>
-    </section>
-
-    <section>
-        <footer class="site-footer">
-            <div class="container">
-
-            </div>
-      </footer>
-    </section>
+          </div>
+      </div>     
+    </footer>
 
 
 
-    <script src="index.js"></script>
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
@@ -194,6 +213,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+    <script src="index.js"></script>
 
 
 </body>

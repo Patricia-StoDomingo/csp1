@@ -5,10 +5,106 @@
 
 html {
 	font-size: 16px;
+	scroll-behavior: smooth
 }
 
 body {
 	font-family: "Montserrat", sans-serif;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.1rem;
+}
+
+.pad {
+	padding: 0 8%;
+}
+
+h5.card-title {
+	font-family: "Roboto Slab", serif;
+	font-weight: bold;
+	color: #718093;
+}
+
+h2.text-center.pb-5 {
+	font-family: "Roboto Slab", serif;
+	font-weight: bold;
+	font-size: 2.5rem;
+	color: #353b48;
+}
+
+h2.pb-2 {
+	font-family: "Roboto Slab", serif;
+	font-weight: bold;
+	color: #353b48;
+	font-size: 2.5rem;
+}
+
+h3.pb-5 {
+	font-family: "Roboto Slab", serif;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #718093;
+}
+
+button.btn.btn-warning {
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-size: 1.2rem;
+	border-radius: 25px 25px;
+}
+
+button.btn.btn-warning:hover {
+	color: #57606f;
+	background-color: #ffffff;
+	border-color: #57606f;
+}
+
+p.card-text.text-justify {
+	font-size: .9rem;
+}
+
+p.pb-2 {
+	font-weight: 500;
+}
+
+label {
+	font-weight: 500;
+}
+
+button.btn.btn-warning.container-fluid {
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-size: 1.2rem;
+	border-radius: 25px 25px;
+}
+
+button.btn.btn-warning.container-fluid:hover {
+	color: #57606f;
+	background-color: #ffffff;
+	border-color: #57606f;
+}
+
+a.btn.btn-warning {
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-size: 1.2rem;
+	border-radius: 25px 25px;
+}
+
+a.btn.btn-warning:hover {
+	color: #57606f;
+	background-color: #ffffff;
+	border-color: #57606f;
+}
+
+.heading {
+	font-family: "Roboto Slab" serif;
+}
+
+.jumbotron > p.lead {
+	font-weight: bold;
 }
 
 .home-intro {
@@ -29,13 +125,28 @@ body {
 	color: white;
 }
 
+h3 {
+	font-family: "Roboto Slab", serif;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #353b48;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
+	box-shadow: 0px 2px 10px -4px rgba(0,0,0,0.8);
+}
+
 #hello {
 	font-family: "Montserrat" sans-serif;
 	font-weight: 800;
 	font-size: 5rem;
 	color: white;
+	text-shadow:  0px 2px 2px rgba(0,0,0,0.34);
 }
 
+p.lead {
+	text-shadow:  0px 2px 2px rgba(0,0,0,0.34);
+}
 
 .navbar-nav li {
 	padding: .5rem;
@@ -68,16 +179,6 @@ a.nav-link {
 	position: absolute;
 }
 
-
-
-
-
-
-
-
-
-
-
 .site-footer {
   	background-color:#26272b;
   	padding:45px 0 20px;
@@ -86,19 +187,72 @@ a.nav-link {
   	color:#737373;
 }
 
-.site-footer hr {
-  	border-top-color:#bbb;
-  	opacity:0.5
+.fa {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
 }
 
-.site-footer hr.small {
-  	margin:20px 0
+.footer-details {
+	display: flex;
 }
-.site-footer h6 {
-  	color:#fff;
-  	font-size:16px;
-  	text-transform:uppercase;
-  	margin-top:5px;
-  	letter-spacing:2px
+
+.copyright p {
+	margin-bottom: .2rem;
+	font-family: "Roboto Slab" sans-serif;
+	font-size: 1rem;
 }
+
+.copyright {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 4rem;
+}
+
+div.copyright {
+	padding-left: 4rem;
+}
+
+.icons {
+	display: flex;
+	flex-direction: column;
+}
+
+a.fa {
+	margin: .5rem;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
 
