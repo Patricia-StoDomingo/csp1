@@ -99,6 +99,7 @@ a.btn.btn-warning:hover {
 	border-color: #57606f;
 }
 
+
 .heading {
 	font-family: "Roboto Slab" serif;
 }
@@ -255,4 +256,37 @@ a.fa {
   color: white;
 }
 
+
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 12px;
+	}
+
+	.pad {
+		padding: 0 1rem;
+	} 
+
+	a {
+		font-size: 10px;
+	}
+
+	div.col-lg-6.col-sm-12.col-md-6.copyright {
+		padding-left: 1rem;
+		margin-bottom: 3rem;
+	}
+
+	div.col-lg-6.col-sm-12.col-md-6.icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div.row.container-fluid.footer-details {
+		margin: 0;
+		padding: 0;
+	}
+
+
+
+}
 
