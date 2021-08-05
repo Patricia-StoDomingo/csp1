@@ -50,15 +50,18 @@ h3.pb-5 {
 
 button.btn.btn-warning {
 	color: white;
+	background-color: rgb(27, 27, 27);
+	border: 1px solid rgb(27, 27, 27);
 	font-family: "Roboto Slab", serif;
 	font-size: 1.2rem;
-	border-radius: 25px 25px;
+	border-radius: 0;
 }
 
 button.btn.btn-warning:hover {
 	color: #57606f;
 	background-color: #ffffff;
 	border-color: #57606f;
+	border-radius: 0;
 }
 
 p.card-text.text-justify {
@@ -77,26 +80,32 @@ button.btn.btn-warning.container-fluid {
 	color: white;
 	font-family: "Roboto Slab", serif;
 	font-size: 1.2rem;
-	border-radius: 25px 25px;
+	background-color: rgb(27, 27, 27);
+	border: 1px solid rgb(27, 27, 27);
+	border-radius: 0;
 }
 
 button.btn.btn-warning.container-fluid:hover {
 	color: #57606f;
 	background-color: #ffffff;
 	border-color: #57606f;
+	border-radius: 0;
 }
 
 a.btn.btn-warning {
 	color: white;
 	font-family: "Roboto Slab", serif;
 	font-size: 1.2rem;
-	border-radius: 25px 25px;
+	border-radius: 0;
+	background-color: rgb(27, 27, 27);
+	border: 1px solid rgb(27, 27, 27);
 }
 
 a.btn.btn-warning:hover {
 	color: #57606f;
 	background-color: #ffffff;
 	border-color: #57606f;
+	border-radius: 0;
 }
 
 a.nav-link:hover {
@@ -120,7 +129,7 @@ a.nav-link:hover {
 	margin-top: 3rem;
 	display: flex;
 	flex-direction: column;
-	background-image: url("./img/darker-cover.jpg");
+	background-image: url("./img/cover-new-overlay40.jpg");
 	background-size: cover;
 	height: 93vh;
 	width: 100%;
@@ -189,7 +198,7 @@ a.nav-link {
 }
 
 .site-footer {
-  	background-color:#26272b;
+  	background-color:rgb(27, 27, 27);
   	padding:45px 0 20px;
   	font-size:15px;
   	line-height:24px;
@@ -234,6 +243,10 @@ div.copyright {
 .icons {
 	display: flex;
 	flex-direction: column;
+}
+
+.form-control {
+	border-radius: 0;
 }
 
 a.fa {
